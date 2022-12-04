@@ -1,5 +1,4 @@
 <script>
-	import Nav from '../components/Nav.svelte';
 
 	/**
 	 * @type {any}
@@ -16,9 +15,23 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+	li{
+		text-decoration: none;
+		list-style-type: none;
+	}
 </style>
 
-<Nav {segment}/>
+<ul class="navigation row">
+	<li class="m-2 col-2">
+		<a class="" href="about">about</a>
+	</li>
+	<li class="m-2 col-2">
+		<a href="contacts">contacts</a>
+	</li>
+	<li class="m-2 col-2">
+		<a href="services">services</a>
+	</li>
+</ul>
 
 <main>
 	<slot></slot>
