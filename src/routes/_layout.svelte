@@ -1,7 +1,10 @@
 <script>
 	import Nav from '../components/Nav.svelte';
 
-	export let segment;
+	/**
+	 * @type {any}
+	 */
+	 export let segment;
 </script>
 
 <style>
