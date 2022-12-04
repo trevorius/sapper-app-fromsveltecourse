@@ -1,2 +1,2 @@
-<script type="text/javascript"></script>
+<script></script>
 <h1></h1>
